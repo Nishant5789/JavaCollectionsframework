@@ -1,3 +1,5 @@
+package Collectionsframeworkpratice;
+
 import java.util.*;
 
 class Employees implements Comparable<Employees> {
@@ -25,7 +27,7 @@ class Employees implements Comparable<Employees> {
 
     @Override
     public String toString() {
-        return "Employees{id=" + id + ", name='" + name + "'}";
+        return "Collectionsframeworkpratice.Employees{id=" + id + ", name='" + name + "'}";
     }
 }
 

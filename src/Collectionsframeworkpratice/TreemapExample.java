@@ -1,3 +1,5 @@
+package Collectionsframeworkpratice;
+
 import java.util.Map;
 import java.util.TreeMap;
 

@@ -1,3 +1,4 @@
+package Collectionsframeworkpratice;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -28,7 +29,7 @@ public class ItratoinofList {
             System.out.println(iterator.next());
         }
 
-        System.out.println("\n4. Using ListIterator (Forward and Backward):");
+        System.out.println("4. Using ListIterator (Forward and Backward):");
         ListIterator<String> listIterator = list.listIterator();
         System.out.println("Forward Traversal:");
         while (listIterator.hasNext()) {

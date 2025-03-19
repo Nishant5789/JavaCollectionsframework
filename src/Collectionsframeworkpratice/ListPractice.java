@@ -1,14 +1,10 @@
+package Collectionsframeworkpratice;
+
 import java.util.ArrayList;
 import java.util.*;
 
 public class ListPractice {
     public static void main(String[] args) {
-        // Create a list and add some elements
-
-//        List<Integer> list1 = Arrays.asList(1, 2, 3);
-//        int[] arr = { 1, 2, 3, 4, 5 };
-//        int[] arr = new int[5];
-
         List<String> list = new ArrayList<>();
         list.add("Apple");
         list.add("Banana");
@@ -53,14 +49,27 @@ public class ListPractice {
         list.addAll(3, tropicalFruits);
         System.out.println("List after adding tropical fruits at index 3: " + list);
 
+//        ---- remove() are::::::::
+//        boolean remove(Object)
+//        Integer remove(int)
+
         // Remove an element by index
-        list.remove(4); // Removes the element at index 4
+        list.remove(4); // Removes the element at index 4 & return 4
+        // Remove an element by value
         System.out.println("List after removing element at index 4: " + list);
 
         // Remove an element by value
         boolean isRemoved = list.remove("Apple"); // Removes the first occurrence of "Apple"
         System.out.println("List after removing 'Apple': " + list);
         System.out.println("Was 'Apple' removed? " + isRemoved);
+
+//        List<Integer> l = new ArrayList<>(List.of(1, 2, 3));
+         List<Integer>  l = new ArrayList<>(Arrays.asList(1,2,3,4,2,2));
+         l.remove(Integer.valueOf(2));// remove first occurance
+         System.out.println("remove by interger " + l);
+
+         l.removeIf(i-> i==2);// remove all ocuurance
+         System.out.println("remove by itrate " + l);
     }
 }
 

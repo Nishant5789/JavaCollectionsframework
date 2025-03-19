@@ -1,3 +1,5 @@
+package Collectionsframeworkpratice;
+
 import java.util.TreeSet;
 
 public class TreeSetExample {

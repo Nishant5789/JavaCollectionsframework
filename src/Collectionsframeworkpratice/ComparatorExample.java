@@ -1,3 +1,5 @@
+package Collectionsframeworkpratice;
+
 import java.util.*;
 
 class Employee {
@@ -19,7 +21,7 @@ class Employee {
 
     @Override
     public String toString() {
-        return "Employee{id=" + id + ", name='" + name + "'}";
+        return "Collectionsframeworkpratice.Employee{id=" + id + ", name='" + name + "'}";
     }
 }
 
@@ -46,14 +48,14 @@ public class ComparatorExample {
 
         // Sort by Name using Comparator
         Collections.sort(employees, new NameComparator());
-        System.out.println("Employees sorted by Name: " + employees);
+        System.out.println("Collectionsframeworkpratice.Employees sorted by Name: " + employees);
 
-        // using lamda epression
+        // using lamda expression
         Collections.sort(employees, (e1, e2) -> e1.getName().compareTo(e2.getName()));
-        System.out.println("Employees sorted by Name: " + employees);
+        System.out.println("Collectionsframeworkpratice.Employees sorted by Name: " + employees);
 
         // Sort by ID using Comparator
         Collections.sort(employees, new IdComparator());
-        System.out.println("Employees sorted by ID: " + employees);
+        System.out.println("Collectionsframeworkpratice.Employees sorted by ID: " + employees);
     }
 }

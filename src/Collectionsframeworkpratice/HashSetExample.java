@@ -1,4 +1,4 @@
-package Collectionsframework;
+package Collectionsframeworkpratice;
 
 import java.util.HashSet;
 
@@ -7,7 +7,7 @@ public class HashSetExample {
         // CREATION
         HashSet<Integer> set = new HashSet<>();
         // ADD ELEMENTS
-        set.add(10); // Add a single element
+        set.add(10);
         set.add(20);
         set.add(30);
         set.add(40);

@@ -1,9 +1,11 @@
-package Collectionsframework.src;
+package Collectionsframeworkpratice;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
-public class Collectionspratice
-{
+public class collectionsutility {
     public static void main(String[] args) {
         // Create a List
         List<String> list = new ArrayList<>();
@@ -75,5 +77,4 @@ public class Collectionspratice
         int index = Collections.binarySearch(list, "Cherry");
         System.out.println("Index of 'Cherry' after binary search: " + index);
     }
-
 }

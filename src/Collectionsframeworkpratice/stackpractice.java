@@ -1,3 +1,5 @@
+package Collectionsframeworkpratice;
+
 import java.util.Stack;
 
 public class stackpractice {

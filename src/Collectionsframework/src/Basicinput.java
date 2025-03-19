@@ -4,13 +4,24 @@ import java.util.Scanner;
 
 public class Basicinput {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        parent ob = new child();
+        ob.excute();
+    }
+}
 
-        System.out.println("type  the int");
-        Integer i = Integer.parseInt(sc.nextLine());
-        System.out.println(i);
+class parent {
+    private void call(){
+        System.out.println("parent");
+    }
+    public void excute(){
+//        System.out.println();
+        call();
+    }
+}
 
-        String str = sc.nextLine();
-        System.out.println(str);
+class  child extends parent
+{
+    public void call(){
+        System.out.println("child");
     }
 }

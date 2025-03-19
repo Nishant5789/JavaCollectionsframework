@@ -59,11 +59,17 @@ public class StringMethodsDemo {
         // 17. Check if a string is empty
         String emptyStr = "";
         System.out.println("Is empty: " + emptyStr.isEmpty());
+        System.out.println("Is empty: " + emptyStr.isBlank());
+        System.out.println("Is empty: " + emptyStr.length());
+//        if(emptyStr.length()==0)
+        System.out.println("Is empty: " + emptyStr.equals(""));
+
 
         // 18. Concatenate strings
         String greeting = "Welcome to ";
 
         System.out.println("Concatenated String: " + greeting.concat("Java World"));
+        System.out.println("but not change actual string value "+greeting);
 
         // 19. String join (with delimiter)
         String joinedStr = String.join(", ", "Apple", "Banana", "Cherry");

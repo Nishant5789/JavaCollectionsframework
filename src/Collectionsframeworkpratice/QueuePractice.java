@@ -1,3 +1,5 @@
+package Collectionsframeworkpratice;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -46,6 +48,5 @@ public class QueuePractice {
         // Peek returns null if the queue is empty
         Integer emptyPeek = queue.peek();
         System.out.println("Result of peek() on empty queue: " + emptyPeek);
-
     }
 }
